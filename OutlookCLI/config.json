@@ -1,0 +1,75 @@
+{
+  "Events": {
+    "SingleEventNoRecipients": {
+      "Subject": "Test from JSON",
+      "StartDate": "2017/12/11T15:30:00-5:00",
+      "Duration": "60",
+	  "OtherCalendar": "Patrick Lam"
+    },
+    "SingleEventWithRecipients": {
+      "Subject": "Test from JSON",
+      "StartDate": "2017/12/11T15:30:00-5:00",
+      "Duration": "60",
+      "Recipients": "sec23e110@svvsec1.cbbcps.com",
+	  "OtherCalendar": "Patrick Lam"
+    },
+    "RecurrenceNoRecipients": {
+      "Subject": "Test from JSON",
+      "StartDate": "2017/12/11T15:30:00-5:00",
+      "Duration": "60",
+      "RecurrenceType": "Weekly",
+      "EndDate": "1/1/2018",
+	  "OtherCalendar": "Patrick Lam"
+    },
+    "RecurrenceWithRecipients": {
+      "Subject": "Test from JSON",
+      "StartDate": "2017/12/11T15:30:00-5:00",
+      "Duration": "60",
+      "RecurrenceType": "Weekly",
+      "EndDate": "1/1/2018",
+      "Recipients": "sec23e110@svvsec1.cbbcps.com",
+	  "OtherCalendar": "Patrick Lam"
+    },
+	"UpdateSingleEventNoRecipients": {
+		"Subject": "Test from JSON",
+		"UpdatedTitle": "Updated: Test from JSON",
+		"UpdatedStartDate": "2017/12/12T15:30:00-5:00",
+		"UpdatedDuration": "55",
+		"OtherCalendar": "Patrick Lam"
+	},
+	"UpdateSingleEventWithRecipients": {
+		"Subject": "Test from JSON",
+		"UpdatedTitle": "Updated: Test from JSON",
+		"UpdatedStartDate": "2017/12/12T15:30:00-5:00",
+		"UpdatedDuration": "55",
+		"Recipients": "sec23e110@svvsec1.cbbcps.com",
+		"OtherCalendar": "Patrick Lam"
+	},
+	"UpdateRecurrenceNoRecipients": {
+		"Subject": "Test from JSON",
+		"EventDate": "2017/12/11T15:30:00-5:00",
+		"UpdatedTitle": "Updated: Test from JSON",
+		"UpdatedStartDate": "2017/12/12T16:30:00-5:00",
+		"UpdatedDuration": "55",
+		"OtherCalendar": "Patrick Lam"
+	},
+	"UpdateRecurrenceWithRecipients": {
+		"Subject": "Test from JSON",
+		"EventDate": "2017/12/11T15:30:00-5:00",
+		"UpdatedTitle": "Updated: Test from JSON",
+		"UpdatedStartDate": "2017/12/12T16:30:00-5:00",
+		"UpdatedDuration": "55",
+		"Recipients": "sec23e110@svvsec1.cbbcps.com",
+		"OtherCalendar": "Patrick Lam"
+    },
+	"RemoveSingleInstance": {
+		"Subject": "Test from JSON",
+		"EventDate": "2017/12/11T15:30:00-5:00",
+		"OtherCalendar": "Patrick Lam"
+	},
+	"RemoveAllInstances": {
+		"Subject": "Test from JSON",
+		"OtherCalendar": "Patrick Lam"
+	}
+	}
+}

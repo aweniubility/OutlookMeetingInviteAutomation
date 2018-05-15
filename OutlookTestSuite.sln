@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookAddIn", "OutlookAddIn\OutlookAddIn.csproj", "{17BB9343-385F-4E13-A697-169BE94556C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookCLI", "OutlookCLI\OutlookCLI.csproj", "{5CAB2C37-F242-427A-9056-55901113F329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookGUI", "OutlookGUI\OutlookGUI.csproj", "{C0083AB2-D2DD-42D2-859B-82FE8ABBAA99}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OutlookAutomationSetup", "OutlookAutomationSetup\OutlookAutomationSetup.vdproj", "{0184373C-D160-4E6A-BBF8-51A9938C750A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17BB9343-385F-4E13-A697-169BE94556C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BB9343-385F-4E13-A697-169BE94556C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BB9343-385F-4E13-A697-169BE94556C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BB9343-385F-4E13-A697-169BE94556C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAB2C37-F242-427A-9056-55901113F329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAB2C37-F242-427A-9056-55901113F329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAB2C37-F242-427A-9056-55901113F329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAB2C37-F242-427A-9056-55901113F329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0083AB2-D2DD-42D2-859B-82FE8ABBAA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0083AB2-D2DD-42D2-859B-82FE8ABBAA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0083AB2-D2DD-42D2-859B-82FE8ABBAA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0083AB2-D2DD-42D2-859B-82FE8ABBAA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0184373C-D160-4E6A-BBF8-51A9938C750A}.Debug|Any CPU.ActiveCfg = Debug
+		{0184373C-D160-4E6A-BBF8-51A9938C750A}.Debug|Any CPU.Build.0 = Debug
+		{0184373C-D160-4E6A-BBF8-51A9938C750A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C7F3C1D-E20E-4436-9F95-9BC7F6A91BFD}
+	EndGlobalSection
+EndGlobal
